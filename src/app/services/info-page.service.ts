@@ -12,8 +12,8 @@ export class InfoPageService {
 
   team: any[] = [];
 
-  constructor(private http:HttpClient) {
-    console.warn('InfoPageService');
+  constructor(private http: HttpClient) {
+    // console.warn('InfoPageService');
 
     this.loadInfo();
     this.loadTeam();
@@ -25,7 +25,7 @@ export class InfoPageService {
       .subscribe( (resp: InfoPage) => {
         this.info = resp;
         this.loaded = true;
-        console.warn(resp);
+        // console.warn(resp);
       });
   }
 
@@ -33,7 +33,7 @@ export class InfoPageService {
     this.http.get('https://htmlenwebapp.firebaseio.com/team.json')
       .subscribe( (resp: any) => {
         this.team = resp;
-        console.warn(resp);
+        // console.warn(resp);
       });
   }
 }
