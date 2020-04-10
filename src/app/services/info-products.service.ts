@@ -26,7 +26,7 @@ export class InfoProductsService {
 
           setTimeout(() => {
             this.loading = false;
-
+            resolve();
           }, 250);
         });
 

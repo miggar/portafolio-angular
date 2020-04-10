@@ -17,7 +17,7 @@ export class SearchComponent implements OnInit {
 
     this.route.params
       .subscribe( params => {
-        console.warn( params.txt );
+        // console.warn( params.txt );
         this.infoProductsService.searchProduct( params.txt );
       });
   }

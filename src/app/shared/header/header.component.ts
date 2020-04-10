@@ -17,7 +17,7 @@ export class HeaderComponent implements OnInit {
   }
 
   searchProduct(txt: string) {
-    console.warn(txt.length );
+    // console.warn(txt.length );
     if (!txt.length) {
       return;
     }
