@@ -1,0 +1,11 @@
+{
+    "title"         : "LOGO",
+    "email"         : "correo@correo.com",
+    "short_name"    : "my short name",
+    "autor_page"    : "https://webauthor.com",
+    "facebook"      : "https://my_facebook.com",
+    "twitter"       : "https://twitter.com/my_twitter",
+    "instagram"     : "https://instagram.com",
+    "tumblr"         : "https://www.tumblr.com",
+    "team_job"      : []
+}
